@@ -18,14 +18,28 @@ public class AffichageSuite {
         }
 
         int j = 1;
-        while(j<=10) {
+        while (j <= 10) {
             System.out.println(j);
             j++;
         }
 
-
+        int h = 0;
+        while (h <= 10) {
+            if (h % 2 == 0) {
+                System.out.println(h);
+            }
+            h++;
         }
 
+        int x = 0;
+        while (x < 10) {
+            if (!(x % 2 == 0)) {
+                System.out.println(x);
+            }
+            x++;
+        }
+
+    }
 
 
 }
