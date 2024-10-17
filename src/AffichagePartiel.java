@@ -10,9 +10,9 @@ public class AffichagePartiel {
         int[] sortedArray = supThree(array);
         System.out.println("Entiers supérieurs à trois " + Arrays.toString(sortedArray));
         Set<Integer> evenNumber = evenSort(array);
+        System.out.println("Les nombres pairs " );
         for (int num : evenNumber) {
-            System.out.println("Les nombres pairs " + num);
-
+            System.out.println(num);
         }
     }
 
@@ -30,8 +30,9 @@ public class AffichagePartiel {
             for (int j = 0; j < evenNumber.length; j++) {
                 setEvenNb.add(evenNumber[i]);
             }
-        }
+         }
         return setEvenNb;
+
     }
 
     public static int[] supThree(int[] array) {
