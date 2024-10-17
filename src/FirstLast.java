@@ -1,4 +1,4 @@
-public class FirstClass {
+public class FirstLast {
     public static void main(String[] args) {
 
         int[] array;
